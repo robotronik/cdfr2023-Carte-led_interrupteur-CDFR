@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS4871IDT
+D OUTPUT RAIL TO RAIL 1W AUDIO POWER AMPLIFIER WITH STANDBY MODE
+K audio amplifier class AB
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/ad/2d/28/99/4c/cd/42/68/CD00002724.pdf/files/CD00002724.pdf/jcr:content/translations/en.CD00002724.pdf
+$ENDCMP
+#
+$CMP TS4962
+D 2.8 W filter-free mono class D audio power amplifier
+K audio amplifier class D
+F http://www.st.com/resource/en/datasheet/ts4962.pdf
+$ENDCMP
+#
+#End Doc Library

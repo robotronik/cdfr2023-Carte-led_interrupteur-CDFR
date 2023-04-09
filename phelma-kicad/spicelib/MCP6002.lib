@@ -1,0 +1,7 @@
+* A dual opamp ngspice model for an 8 Pin package
+* file name: MCP6002.lib
+.subckt MCP6002 1out 1in- 1in+ vcc- 2in+ 2in- 2out vcc+
+.include MCP6001.lib
+XU1A 1in+ 1in- vcc+ vcc- 1out MCP6001
+XU1B 2in+ 2in- vcc+ vcc- 2out MCP6001
+.ends
