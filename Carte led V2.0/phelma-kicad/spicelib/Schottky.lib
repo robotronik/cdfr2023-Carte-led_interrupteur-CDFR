@@ -1,0 +1,13 @@
+*******************************************************************
+* Model name       : Schottky 1N5817
+* Description      : Schottky
+* Package type     : Traversant
+*******************************************************************
+*model 1N5817      	anode
+*                    	| cathode
+*                    	| |
+.subckt 1N5817     	A K
+d1 A K dx
+.model 1N5817 D(Is=31.7u Rs=.051 N=1.373 Cjo=190p M=.3 Eg=.69 Xti=2 Iave=1 Vpk=20 mfg=OnSemi type=Schottky)
+.ends
+*$
